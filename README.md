@@ -1,0 +1,1 @@
+This repo represents an assignment I (am trying to) fullfill for the FrontEndDevelopment course from Thinkful.com. Highly recommend the course, learned a lot in a very short notice, and a fun way to learn.

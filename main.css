@@ -1,0 +1,108 @@
+/* font is constant overall */
+html {
+	font-family: "Roboto", Roboto;
+}
+
+/* All navigation bar design */
+nav {
+  	width: 100%;
+	height: 40px;
+	background-color: gainsboro;
+	border-bottom: 1px solid silver;
+}
+.bar {
+	font-size: 18px;
+	position: absolute;
+	top: -8px;
+}
+.title {
+	left: 10px;
+}
+.menus {
+	right: 10px;
+}
+.menus li {
+	display: inline;
+}
+.menus li::after {
+	content: "\00a0\00a0\00a0"; /* 3 spaces between links */
+}
+.bar a:link {
+    text-decoration: none;
+    color: black;
+}
+.menus a:link {
+	color: purple;
+}
+.bar a:hover {
+    text-decoration: underline;
+}
+
+/* All the rest */
+main {
+	width: 88%;
+	min-height: 1000px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* the search part */
+.search p {
+	font-size: 15px;
+}
+
+input {
+	box-sizing: border-box;
+    border: 1px solid silver;
+    width: 400px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 4px;
+    display: block;
+    margin-top: 10px;
+}
+
+.searchbutton {
+	width: 38px;
+	height: 32px;
+	border: 1px solid silver;
+	position: relative;
+	border-radius: 4px;
+	left: 405px;
+	top: -48px;
+	background-color: white;
+}
+
+.searchbutton > img{
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
